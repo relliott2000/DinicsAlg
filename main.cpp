@@ -2,7 +2,7 @@
 #include <vector>
 #include <list>
 using namespace std;
-
+// code implentation from: https://geeksforgeeks.org/dinics-algorithm-maximum-flow
 struct Edge {
     int v;      // Vertex v (or "to" vertex)
     // of a directed edge u-v. "From"
